@@ -1,6 +1,9 @@
 # User has random value sk - spending key
 # https://zips.z.cash/zip-0032
 
+# implementation link:
+# https://github.com/zcash/zcash/blob/master/src/zcash/prf.cpp
+
 from hashlib import blake2b
 
 def BLAKE2b512(personalisation_string: bytes, data: bytes):
